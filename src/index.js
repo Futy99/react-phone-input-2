@@ -505,7 +505,7 @@ class PhoneInput extends React.Component {
       highlightCountryIndex,
     }, () => {
       if (this.state.showDropdown) {
-        this.scrollTo(this.getElement(this.state.highlightCountryIndex));
+        // this.scrollTo(this.getElement(this.state.highlightCountryIndex));
       }
     });
   }
